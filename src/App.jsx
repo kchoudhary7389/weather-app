@@ -78,7 +78,7 @@ function App() {
                 <h1 className="text-2xl font-semibold text-center text-gray-500 ">
                   Condition
                 </h1>
-                <div className="sm:h-32 flex justify-center sm:mt-6 items-center">
+                <div className="flex justify-center sm:mt-8 mt-6 items-center">
                   <img src={data.current.condition.icon} alt="" />
                   <h3 className="text-2xl py-2 font-bold">
                     {data.current.condition.text}
